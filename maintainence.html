@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>options</title>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js//all.js"></script>
+
+    <!--External css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--    Navigation bar-->
+    <section id="navigation">
+        <nav class="navbar navbar-light navbar-expand-md ">
+            <img class="navbar-logo policeLogo" src="images/police.png" alt="police logo">
+            <a class="navbar-brand brand" href="#"><b>
+                    <h3 class="brand">Quarter allotment</h3>
+                </b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#options" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="options">
+                <ul class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#">
+                        <li class="nav-item"><b class="list">Home</b></li>
+                    </a>
+                    <a class="nav-link" href="mailto:adityagiradkar11@gmail.com">
+                        <li class="nav-item"><b class="list">contact</b></li>
+                    </a>
+                    <a class="nav-link" href="index.html">
+                        <li class="nav-item"><b class="list">Logout</b></li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    
+    <!--Form-->
+    <div class="container allotment">
+        <form  action="options.html">
+            <h2 class="form-heading" style="text-align: center; padding-bottom: 4%">Maintainence Form</h2>
+            <div class="form-group allot">
+                <label for="Address" style="text-align: left;"><b>Address</b></label>
+                <input type="text" class="form-control" id="Address" placeholder="Provide Complete Address" required>
+            </div>
+            
+            <!--check boxes-->
+            <div class="allot">
+                <lable style="text-align: left;"><b>Mention the problems</b></lable>
+                <div class="check">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Water">
+                        <label class="form-check-label" for="Water">
+                            Water
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Electricity">
+                        <label class="form-check-label" for="Electricity">
+                            Electricity
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Garbedge">
+                        <label class="form-check-label" for="GArbedge">
+                            Garbedege
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="food">
+                        <label class="form-check-label" for="food">
+                            Food
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="trafic">
+                        <label class="form-check-label" for="trafic">
+                            Trafic
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <!--text boxes-->
+            <div class="form-group allot">
+                <label for="discription"><b>Brif dricription of problem</b></label>
+                <textarea class="form-control" id="discription" rows="2" required></textarea>
+            </div>
+            <div class="form-group allot">
+                <label for="Sugestion"><b>If other problems, mention here</b></label>
+                <textarea class="form-control" id="sugestion" rows="3"></textarea>
+            </div>
+            <div class="form-group allot">
+                <label for="images"><b>Images</b></label>
+                <input type="file" class="form-control-file" id="images">
+            </div>
+            <div class="allot" style="text-align: center;">
+                <input class="btn btn-primary active" type="submit" name="submit" value="complaintent">
+            </div>
+        </form>
+    </div>
+
+    <!--Footer-->
+    <footer id="footer">
+        <i class="social-icon fab fa-facebook"></i>
+        <i class="social-icon fab fa-twitter-square"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <p> &#9400 copyright received</p>
+    </footer>
+</body>
+</html>
