@@ -17,6 +17,7 @@ body{
 
 .navbar{
     padding: 0 4%;
+    padding-left: 0!important;
     
 }
 
@@ -118,5 +119,6 @@ body{
 .check{
     padding-left: 2%;
 }
+
 
 
