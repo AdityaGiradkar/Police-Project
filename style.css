@@ -66,7 +66,7 @@ body{
 .biodata{
     text-align: center;
     padding: 2% 0;
-    background-color: yello;
+   
 }
 
 .row{
@@ -120,5 +120,7 @@ body{
     padding-left: 2%;
 }
 
-
+hr{
+    margin: 0 20%;
+}
 
